@@ -1,0 +1,168 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #d7b98e, #4c2f2f); /* Gradient background from light brown to dark brown */
+    color: #fff; /* White font color */
+}
+
+/* Header styles */
+header {
+    background-color: #4c2f2f; /* Dark brown */
+    color: #fff; /* White */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center;
+}
+
+header h1.logo {
+    font-size: 2.5em; /* Increase font size */
+}
+
+header .highlight {
+    font-style: italic;
+    color: #f3eee2; /* Light brown */
+}
+
+header p {
+    font-style: italic;
+}
+
+header .logo-img {
+    width: 150px; /* Logo image size */
+    margin-top: 10px; /* Add margin to separate from text */
+}
+
+/* Navigation styles */
+nav {
+    background-color: rgba(108, 79, 79, 0.8); /* Slightly darker brown with some transparency */
+    padding: 10px 0;
+}
+
+nav .container {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* White font color */
+    text-decoration: none;
+}
+
+/* Section styles */
+.section {
+    padding: 50px 0;
+}
+
+.section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* About section styles */
+.about-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about-images img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/* Product section styles */
+.product {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    border-radius: 10px;
+}
+/* Contact form styles */
+.contact-form {
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 100px; /* Adjust the height as needed */
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #4c2f2f; /* Dark brown */
+    color: #fff; /* White */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #6c4f4f; /* Slightly darker brown on hover */
+}
+
+/* Contact section styles */
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contact-list li a img {
+    width: 30px;
+}
+.logo {
+    width: 150px; /* Increased size by three times */
+}
